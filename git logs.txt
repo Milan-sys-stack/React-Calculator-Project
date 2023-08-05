@@ -1,0 +1,16 @@
+// if you want to create a new branch and go inside that branch
+➜  my-react-app git:(master) ✗ git checkout -b branch-name
+// if you want to go inside any other branch that was created already
+➜  my-react-app git:(branch-name) ✗ git checkout branch-name
+➜  my-react-app git:(branch-name) ✗ git status
+➜  my-react-app git:(branch-name) ✗ git status
+➜  my-react-app git:(branch-name) ✗ git add src/Components/Calculator/index.js
+➜  my-react-app git:(branch-name) ✗ git status 
+➜  my-react-app git:(branch-name) ✗ git commit -m "added comment on dot if statement"
+➜  my-react-app git:(branch-name) ✗ git status                                       
+➜  my-react-app git:(branch-name) ✗ git add .
+➜  my-react-app git:(branch-name) ✗ git commit -m "added comment on button"          
+➜  my-react-app git:(branch-name) git status                             
+➜  my-react-app git:(branch-name) git push
+➜  my-react-app git:(branch-name) git push --set-upstream origin branch-name
+➜  my-react-app git:(branch-name) 
